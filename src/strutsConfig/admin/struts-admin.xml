@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+        "http://struts.apache.org/dtds/struts-2.1.7.dtd">
+<struts>
+    <package name="adminUser" namespace="/adminUser" extends="struts-default">
+        <action name="adminLogin" class="org.company.actions.AdminUserAction" method="adminLogin">
+            <result>/WEB-INF/admin/login.jsp</result>
+        </action>
+        <action name="login" class="org.company.actions.AdminUserAction" method="login">
+            <result>/WEB-INF/admin/index.jsp</result>
+            <result name="error">/WEB-INF/admin/login.jsp</result>
+        </action>
+        <action name="right" class="org.company.actions.AdminUserAction" method="right">
+            <result>/WEB-INF/admin/right.jsp</result>
+        </action>
+        <action name="toUpload" class="org.company.actions.AdminUserAction" method="toUpload">
+            <result>/WEB-INF/admin/intro/uploadImage.jsp</result>
+        </action>
+        <action name="upload" class="org.company.actions.AdminUserAction" method="upload">
+            <!-- 动态设置savePath的属性值 -->
+            <param name="savePath">/images</param>
+            <result name="success">/index.jsp</result>
+            <result name="input">/toUpload.action</result>
+            <interceptor-ref name="fileUpload">
+                <!-- 文件过滤 -->
+                <param name="allowedTypes">image/bmp,image/png,image/gif,image/jpeg</param>
+                <!-- 文件大小, 以字节为单位 -->
+                <param name="maximumSize">1025956</param>
+            </interceptor-ref>
+            <!-- 默认拦截器必须放在fileUpload之后，否则无效 -->
+            <interceptor-ref name="defaultStack" />
+        </action>
+        <action name="toAddIntro" class="org.company.actions.AdminUserAction" method="toAddIntro">
+            <result>/WEB-INF/admin/addIntro.jsp</result>
+        </action>
+
+        <action name="addIntro" class="org.company.actions.AdminUserAction" method="addCompanyIntro">
+            <result>/WEB-INF/admin/addIntro.jsp</result>
+            <result name="error">/WEB-INF/admin/login.jsp</result>
+        </action>
+    </package>
+</struts>

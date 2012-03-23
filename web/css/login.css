@@ -1,0 +1,45 @@
+body{
+    background: url("/images/admin/01_bg.jpg") repeat;
+    height: 100%;
+    width: 100%;
+    color: #ffffff;
+    font-family: '微软雅黑' arial;
+    font-size: 14px;
+}
+
+body div#header{
+    height: 202px;
+    width: 420px;
+    background: url("/images/admin/header.png") no-repeat;
+    margin: 0 auto;
+}
+body div#content{
+    margin-top: 50px;
+    text-align: center;
+}
+body div table{
+    text-align: center;
+    float: left;
+    margin-left: 38%;
+}
+body div table input{
+    width: 250px;
+    height: 30px;
+    margin-top: 20px;
+}
+
+body div table button {
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    margin-top: 10px;
+    font-family: '微软雅黑' arial;
+    font-size: 14px;
+}
+
+body div table label{
+    color: #ffffff;
+    text-align: left;
+    display: block;
+    margin-top: 20px;
+}

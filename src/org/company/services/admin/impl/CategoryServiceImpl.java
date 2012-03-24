@@ -21,6 +21,6 @@ public class CategoryServiceImpl extends BaseDaoSupport<Category> implements Cat
 
     @Override
     public List<Category> findAllCategory() {
-        return super.findByEntity(Category.class);
+        return super.getSession().createCriteria(Category.class).list();
     }
 }

@@ -28,6 +28,7 @@ public class CategoryAction extends BaseActionSupport {
         HttpSession session = ServletActionContext.getRequest().getSession();
         AdminUser adminUser = (AdminUser)session.getAttribute("adminInfo");
         if (null!=adminUser){
+            category.setCategoryType(1);
             categoryService.addCategory(category);
             findAllCategory();
             return SUCCESS;

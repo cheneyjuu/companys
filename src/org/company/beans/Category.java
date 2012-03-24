@@ -12,6 +12,7 @@ import javax.persistence.*;
 public class Category implements java.io.Serializable {
     private Integer id;
     private String categoryName;
+    private Integer categoryType;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -29,5 +30,13 @@ public class Category implements java.io.Serializable {
 
     public void setCategoryName(String categoryName) {
         this.categoryName = categoryName;
+    }
+
+    public Integer getCategoryType() {
+        return categoryType;
+    }
+
+    public void setCategoryType(Integer categoryType) {
+        this.categoryType = categoryType;
     }
 }

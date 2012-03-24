@@ -47,9 +47,9 @@
                         <s:property value="#entity.createTime" />
                     </td>
                     <td>
-                        <a href="/adminUser/">删除</a> |
+                        <a href="/adminUser/delIntro.action?companyIntro.id=<s:property value="#entity.id" />">删除</a> |
                         <a href="/adminUser/toAddIntro.action">新增简介</a> |
-                        <a href="/adminUser/">修改</a>
+                        <a href="/adminUser/toUpdateIntro.action?companyIntro.id=<s:property value="#entity.id" />">修改</a>
                     </td>
                 </tr>
             </s:iterator>

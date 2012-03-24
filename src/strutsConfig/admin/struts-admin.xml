@@ -45,5 +45,20 @@
             <result>/WEB-INF/admin/intro/listIntro.jsp</result>
             <result name="error">/WEB-INF/admin/login.jsp</result>
         </action>
+
+        <action name="delIntro" class="org.company.actions.AdminUserAction" method="deleteIntro">
+            <result>/WEB-INF/admin/intro/listIntro.jsp</result>
+            <result name="error">/WEB-INF/admin/login.jsp</result>
+        </action>
+
+        <action name="toUpdateIntro" class="org.company.actions.AdminUserAction" method="toUpdateIntro">
+            <result>/WEB-INF/admin/intro/updateIntro.jsp</result>
+            <result name="error">/WEB-INF/admin/login.jsp</result>
+        </action>
+
+        <action name="updateCompanyIntro" class="org.company.actions.AdminUserAction" method="updateIntro">
+            <result>/WEB-INF/admin/intro/listIntro.jsp</result>
+        </action>
+
     </package>
 </struts>

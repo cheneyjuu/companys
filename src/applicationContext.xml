@@ -37,6 +37,7 @@
 				</prop>
 				<!--开发的时候尽量打开true				-->
 				<prop key="hibernate.show_sql">true</prop>
+                <!--<prop key="hibernate.hbm2ddl.auto">create</prop>-->
 			</props>
 		</property>
 

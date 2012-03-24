@@ -36,7 +36,7 @@ public class AdminUserAction extends BaseActionSupport{
     private File image;
 	private String imageFileName;
 	private String imageContentType;
-    
+
     public String adminLogin(){
         return SUCCESS;
     }
@@ -66,6 +66,50 @@ public class AdminUserAction extends BaseActionSupport{
             return ERROR;
         }
 
+    }
+
+    /**
+     * 删除简介
+     * 此方法为物理删除，删除后数据不可恢复
+     * @return
+     */
+    public String deleteIntro(){
+        ActionContext ctx = ActionContext.getContext();
+        HttpServletRequest request = (HttpServletRequest) ctx.get(ServletActionContext.HTTP_REQUEST);
+        if (null!=request.getSession().getAttribute("adminInfo")){
+            uploadService.delete(companyIntro.getId());
+            findAllCompanyIntroWithPage();
+            return SUCCESS;
+        } else {
+            addActionError("您还未登录或登录已超时！");
+            return ERROR;
+        }
+    }
+    
+    public String toUpdateIntro(){
+        ActionContext ctx = ActionContext.getContext();
+        HttpServletRequest request = (HttpServletRequest) ctx.get(ServletActionContext.HTTP_REQUEST);
+        if (null!=request.getSession().getAttribute("adminInfo")){
+            companyIntro = uploadService.find(companyIntro.getId());
+            return SUCCESS;
+        } else {
+            addActionError("您还未登录或登录已超时！");
+            return ERROR;
+        }
+    }
+    
+    public String updateCompanyIntro(){
+        System.out.println("modify company intro method!");
+            System.out.println(companyIntro.getId());
+        return SUCCESS;
+    }
+    
+    public String updateIntro(){
+        CompanyIntro intro = uploadService.find(companyIntro.getId());
+        intro.setIntro(companyIntro.getIntro());
+        uploadService.update(intro);
+        findAllCompanyIntroWithPage();
+        return SUCCESS;
     }
     
     public String right(){

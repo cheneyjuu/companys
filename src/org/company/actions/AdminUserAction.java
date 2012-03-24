@@ -1,14 +1,17 @@
 package org.company.actions;
 
+import com.opensymphony.xwork2.ActionContext;
 import org.apache.commons.io.FileUtils;
 import org.apache.struts2.ServletActionContext;
 import org.company.actions.base.BaseActionSupport;
 import org.company.beans.AdminUser;
 import org.company.beans.CompanyIntro;
+import org.company.beans.base.PageView;
 import org.company.services.admin.LoginService;
 import org.company.services.admin.UploadService;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.io.File;
 import java.io.IOException;
@@ -44,6 +47,22 @@ public class AdminUserAction extends BaseActionSupport{
             ServletActionContext.getRequest().getSession().setAttribute("adminInfo",adminUser);
             return SUCCESS;
         } else {
+            return ERROR;
+        }
+
+    }
+    
+    public String findAllCompanyIntroWithPage(){
+        ActionContext ctx = ActionContext.getContext();
+        HttpServletRequest request = (HttpServletRequest) ctx.get(ServletActionContext.HTTP_REQUEST);
+        if (null!=request.getSession().getAttribute("adminInfo")){
+            int maxResult = 5;
+            PageView<CompanyIntro> pageView = new PageView<CompanyIntro>(maxResult,getPage());
+            pageView.setQueryResult(uploadService.getScrollData(pageView.getFirstResult(),maxResult));
+            request.setAttribute("pageView", pageView);
+            return SUCCESS;
+        } else {
+            addActionError("您还未登录或登录已超时！");
             return ERROR;
         }
 

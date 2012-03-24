@@ -44,7 +44,7 @@
             <div class="left_title">
                 <strong class="txt_C1">
                     <img src="../../../images/admin/left_title_dot.gif" width="7" height="7" />
-                    <a href="/adminUser/toAddIntro.action" target="main">简介管理</a>
+                    <a href="/adminUser/listIntro.action" target="main">简介管理</a>
                 </strong>
             </div>
             <div class="left_title">

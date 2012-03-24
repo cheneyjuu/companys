@@ -40,5 +40,10 @@
             <result>/WEB-INF/admin/addIntro.jsp</result>
             <result name="error">/WEB-INF/admin/login.jsp</result>
         </action>
+
+        <action name="listIntro" class="org.company.actions.AdminUserAction" method="findAllCompanyIntroWithPage">
+            <result>/WEB-INF/admin/intro/listIntro.jsp</result>
+            <result name="error">/WEB-INF/admin/login.jsp</result>
+        </action>
     </package>
 </struts>

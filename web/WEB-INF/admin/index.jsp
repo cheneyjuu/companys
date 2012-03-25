@@ -53,6 +53,12 @@
                     <a href="/category/category_index.action" target="main">产品类别维护</a>
                 </strong>
             </div>
+            <div class="left_title">
+                <strong class="txt_C1">
+                    <img src="../../../images/admin/left_title_dot.gif" width="7" height="7" />
+                    <a href="/product/product_listProduct.action" target="main">产品维护</a>
+                </strong>
+            </div>
             <%--<div class="left_title_list_box_other" id="left_m1">--%>
                 <%--<a href="#" class="txt_C2"  target="main">link</a>--%>
             <%--</div>--%>

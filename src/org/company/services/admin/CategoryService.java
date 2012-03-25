@@ -19,4 +19,6 @@ public interface CategoryService extends IBaseDao<Category>{
      * @return
      */
     List<Category> findAllCategory();
+
+    List<Category> findByCategoryType(int categoryType);
 }

@@ -12,12 +12,12 @@ import javax.persistence.*;
 public class Product implements java.io.Serializable {
     private Integer id;
     private Integer adminId;
-    private Integer categoryId;
+    private Category category;
     private String productName;
     private String imageUrl;
     private String createTime;
     private String feature;//产品特点
-    private String desc;
+    private String description;
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -69,19 +69,21 @@ public class Product implements java.io.Serializable {
         this.feature = feature;
     }
 
-    public String getDesc() {
-        return desc;
+    @ManyToOne
+    @JoinColumn(name = "categoryId")
+    public Category getCategory() {
+        return category;
     }
 
-    public void setDesc(String desc) {
-        this.desc = desc;
+    public void setCategory(Category category) {
+        this.category = category;
     }
 
-    public Integer getCategoryId() {
-        return categoryId;
+    public String getDescription() {
+        return description;
     }
 
-    public void setCategoryId(Integer categoryId) {
-        this.categoryId = categoryId;
+    public void setDescription(String description) {
+        this.description = description;
     }
 }

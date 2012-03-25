@@ -1,5 +1,7 @@
 package org.company.beans;
 
+import org.apache.struts2.ServletActionContext;
+
 import javax.persistence.*;
 
 /**
@@ -41,5 +43,19 @@ public class AdminUser {
 
     public void setId(Integer id) {
         this.id = id;
+    }
+
+    /**
+     * 用来判断用户是否登录的静态方法
+     * 如果用户已登录返回true
+     * 否则返回false
+     * @return
+     */
+    public static boolean isLogin(){
+        if(null!=ServletActionContext.getRequest().getSession().getAttribute("adminInfo")){
+            return true;
+        } else {
+            return false;
+        }
     }
 }

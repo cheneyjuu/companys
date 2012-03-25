@@ -4,10 +4,17 @@
 <head>
     <title></title>
     <link href="/css/base.css" rel="stylesheet" type="text/css" />
+    <link href="/images/admin/template/images/skin.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="/ckeditor/ckeditor.js"></script>
+    <style type="text/css">
+        td{
+            text-align: left;
+            font-size: 12px;
+        }
+    </style>
 </head>
 <body>
-    <p style="text-align: center;font-size: 16px;margin: 15px 0 15px 0;">新增产品</p>
+    <span class="left_bt" style="text-align: center;margin: 15px 0;display: block;">新增产品</span>
     <form action="/product/product_addProduct.action" method="post" enctype="multipart/form-data">
         <table cellpadding="0" cellspacing="0" border="1" width="80%" align="center">
             <tbody>
@@ -43,12 +50,13 @@
                     产品特点：
                 </td>
                 <td>
-                    <textarea cols="70" id="editor1" name="product.feature" rows="10"></textarea>
+                    <textarea cols="70" id="editor1" name="product.feature" rows="5"></textarea>
                     <script type="text/javascript">
                         CKEDITOR.replace( 'editor1',
                                 {
                                     fullPage : false,
                                     removePlugins:'elementspath',
+                                    height:50,
                                     toolbar :
                                         [
                                             [ 'Bold', 'Italic', '-', 'NumberedList', 'BulletedList', '-', 'Link', 'Unlink' ],
@@ -83,8 +91,8 @@
             </tbody>
             <tfoot>
                 <tr>
-                    <td colspan="2">
-                        <input type="submit" value="新增产品">
+                    <td colspan="2" style="padding-left: 120px;">
+                        <button style="display:block;width: 100px;height: 25px;margin: 5px 0 5px 0;">新增产品</button>
                     </td>
                 </tr>
             </tfoot>

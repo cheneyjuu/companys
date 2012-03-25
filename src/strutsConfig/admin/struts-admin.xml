@@ -9,11 +9,17 @@
             <result>/WEB-INF/admin/login.jsp</result>
         </action>
         <action name="login" class="org.company.actions.AdminUserAction" method="login">
-            <result>/WEB-INF/admin/index.jsp</result>
+            <result>/WEB-INF/adminPage/index.jsp</result>
             <result name="error">/WEB-INF/admin/login.jsp</result>
         </action>
         <action name="right" class="org.company.actions.AdminUserAction" method="right">
-            <result>/WEB-INF/admin/right.jsp</result>
+            <result>/WEB-INF/adminPage/right.jsp</result>
+        </action>
+        <action name="left" class="org.company.actions.AdminUserAction" method="left">
+            <result>/WEB-INF/adminPage/left.jsp</result>
+        </action>
+        <action name="top" class="org.company.actions.AdminUserAction" method="top">
+            <result>/WEB-INF/adminPage/admin_top.jsp</result>
         </action>
         <action name="toUpload" class="org.company.actions.AdminUserAction" method="toUpload">
             <result>/WEB-INF/admin/intro/uploadImage.jsp</result>

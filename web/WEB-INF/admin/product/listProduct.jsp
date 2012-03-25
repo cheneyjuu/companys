@@ -4,7 +4,14 @@
 <head>
     <title></title>
     <link href="/css/base.css" rel="stylesheet" type="text/css" />
+    <link href="/images/admin/template/images/skin.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="/js/base.js"></script>
+    <style type="text/css">
+        td{
+            text-align: center;
+            font-size: 12px;
+        }
+    </style>
 </head>
 <body>
 <form action="/product/product_listProduct.action" method="post">
@@ -12,7 +19,7 @@
     <s:hidden name="page"></s:hidden>
     <s:if test="#request.pageView.totalRecord">
 
-        <h3 style="display: block;text-align: center;margin: 15px 0 15px 0;font-size: 16px;">公司简介管理页面</h3>
+        <span class="left_bt" style="text-align: center;margin: 15px 0;display: block;">公司简介管理页面</span>
         <table border="1" cellpadding="0" cellspacing="0" width="80%" align="center">
             <tr>
                 <td>
@@ -58,8 +65,7 @@
                         <a href="/product/product_details.action?product.id=<s:property value="#entity.id" />">详细</a>
                     </td>
                     <td>
-                        <a href="/product/product_toAddProduct.action">新增产品</a> |
-                        <a href="/product/product_deleteProduct.action?product.id=<s:property value="#entity.id" />">删除</a> |
+                        <a href="/product/product_deleteProduct.action?product.id=<s:property value="#entity.id" />">删除</a> <span style="font-size: 12px;">|</span>
                         <a href="/product/product_toUpdateProduct.action?product.id=<s:property value="#entity.id" />">修改</a>
                     </td>
                 </tr>

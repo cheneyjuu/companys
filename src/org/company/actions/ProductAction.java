@@ -58,25 +58,32 @@ public class ProductAction extends BaseActionSupport{
     
     public String addProduct(){
         if (AdminUser.isLogin()){
-            String realPath = ServletActionContext.getServletContext().getRealPath(
-                    "/images/" + new SimpleDateFormat("yyyy-MM").format(new Date()) + "/"
-                            + new SimpleDateFormat("dd").format(new Date()));
-            String filePath = "/images/" + new SimpleDateFormat("yyyy-MM").format(new Date())
-                    + "/" + new SimpleDateFormat("dd").format(new Date()) + "/";
-            String fileName = generateFileName(imageFileName);
-            File target = new File(realPath,fileName);
-            try {
-                FileUtils.copyFile(image, target);
-                product.setImageUrl(filePath + fileName);
-                product.setCategory(categoryService.find(categoryId));
-                System.out.println("feature:  "+product.getFeature()+"\n"+"desc:  "+product.getDescription()+"\n"+"  category id:  "+categoryId);
-                product.setCreateTime(DateFormat.getInstance().format(new Date()));
-                product.setAdminId(((AdminUser)ServletActionContext.getRequest().getSession().getAttribute("adminInfo")).getId());
-                productService.addProduct(product);
-            } catch (IOException e) {
-                e.printStackTrace();
+            if (null!=image){
+                String realPath = ServletActionContext.getServletContext().getRealPath(
+                        "/images/" + new SimpleDateFormat("yyyy-MM").format(new Date()) + "/"
+                                + new SimpleDateFormat("dd").format(new Date()));
+                String filePath = "/images/" + new SimpleDateFormat("yyyy-MM").format(new Date())
+                        + "/" + new SimpleDateFormat("dd").format(new Date()) + "/";
+                String fileName = generateFileName(imageFileName);
+                File target = new File(realPath,fileName);
+                try {
+                    FileUtils.copyFile(image, target);
+                    product.setImageUrl(filePath + fileName);
+                    product.setCategory(categoryService.find(categoryId));
+                    product.setCreateTime(DateFormat.getInstance().format(new Date()));
+                    product.setAdminId(((AdminUser)ServletActionContext.getRequest().getSession().getAttribute("adminInfo")).getId());
+                    productService.addProduct(product);
+                    return listProduct();
+                } catch (IOException e) {
+                    addActionError("出错啦！");
+                    e.printStackTrace();
+                    return ERROR;
+                }
+            } else {
+                addActionError("您还未添加图片！");
+                return ERROR;
             }
-            return listProduct();
+
         } else {
             addActionError("您还未登录或登录已超时！");
             return ERROR;

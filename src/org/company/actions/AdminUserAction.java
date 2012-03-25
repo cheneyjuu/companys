@@ -112,6 +112,14 @@ public class AdminUserAction extends BaseActionSupport{
         return SUCCESS;
     }
     
+    public String left(){
+        return SUCCESS;
+    }
+
+    public String top(){
+        return SUCCESS;
+    }
+    
     public String right(){
         return SUCCESS;
     }

@@ -6,6 +6,7 @@
     <link href="/css/base.css" rel="stylesheet" type="text/css" />
     <link href="/images/admin/template/images/skin.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="/js/base.js"></script>
+    <script type="text/javascript" src="/js/jquery-1.7.1.min.js"></script>
     <style type="text/css">
         td{
             text-align: center;
@@ -14,6 +15,7 @@
     </style>
 </head>
 <body>
+<span class="left_bt" style="text-align: center;margin: 15px 0;display: block;"><s:actionmessage /></span>
 <form action="/product/product_listProduct.action" method="post">
 
     <s:hidden name="page"></s:hidden>
@@ -65,7 +67,8 @@
                         <a href="/product/product_details.action?product.id=<s:property value="#entity.id" />">详细</a>
                     </td>
                     <td>
-                        <a href="/product/product_deleteProduct.action?product.id=<s:property value="#entity.id" />">删除</a> <span style="font-size: 12px;">|</span>
+                        <input type="hidden" id="productId" value="<s:property value="#entity.id" />">
+                        <a href="javascript:void(0)" onclick="deleteProduct()">删除</a> <span style="font-size: 12px;">|</span>
                         <a href="/product/product_toUpdateProduct.action?product.id=<s:property value="#entity.id" />">修改</a>
                     </td>
                 </tr>
@@ -81,5 +84,14 @@
         没有记录
     </s:else>
 </form>
+<script type="text/javascript">
+    function deleteProduct(){
+        var result = window.confirm("请确认删除");
+        if(result){
+            var pid = $("#productId").val();
+            window.location.href="/product/product_deleteProduct.action?product.id="+pid;
+        }
+    }
+</script>
 </body>
 </html>

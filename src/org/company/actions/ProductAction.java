@@ -116,6 +116,7 @@ public class ProductAction extends BaseActionSupport{
     }
     
     public String deleteProduct(){
+        //删除产品时，应该删除产品对应的图片，目前这里不做这一步处理
         if (AdminUser.isLogin()){
             productService.delete(product.getId());
             return listProduct();
@@ -123,6 +124,44 @@ public class ProductAction extends BaseActionSupport{
             addActionError("您还未登录或登录已超时！");
             return ERROR;
         }
+    }
+
+    public String toUpdateProduct(){
+        if (AdminUser.isLogin()){
+            categoryList = categoryService.findByCategoryType(1);
+            product = productService.find(product.getId());
+            return "toUpdateProduct";
+        } else {
+            addActionError("您还未登录或登录已超时！");
+            return ERROR;
+        }
+
+    }
+    
+    public String updateProduct(){
+        //更新产品时，如果用户选择重新上传了产品图片，应该将old picture 删除。目前不支持此功能。
+        if (null!=image){
+            String realPath = ServletActionContext.getServletContext().getRealPath(
+                    "/images/" + new SimpleDateFormat("yyyy-MM").format(new Date()) + "/"
+                            + new SimpleDateFormat("dd").format(new Date()));
+            String filePath = "/images/" + new SimpleDateFormat("yyyy-MM").format(new Date())
+                    + "/" + new SimpleDateFormat("dd").format(new Date()) + "/";
+            String fileName = generateFileName(imageFileName);
+            File target = new File(realPath,fileName);
+            try {
+                FileUtils.copyFile(image,target);
+                product.setImageUrl(filePath + fileName);
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        } else {
+            product.setCategory(categoryService.find(categoryId));
+            product.setCreateTime(DateFormat.getInstance().format(new Date()));
+            product.setAdminId(((AdminUser)ServletActionContext.getRequest().getSession().getAttribute("adminInfo")).getId());
+            productService.update(product);
+        }
+        addActionMessage("修改成功");
+        return listProduct();
     }
 
     public List<Category> getCategoryList() {

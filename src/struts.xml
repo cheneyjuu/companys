@@ -5,6 +5,15 @@
         "http://struts.apache.org/dtds/struts-2.1.7.dtd">
 
 <struts>
+    <package name="common" extends="struts-default">
+        <interceptors>
+            <interceptor name="configdebug" class="com.configdebug.interceptor.ConfigDebugInterceptor"/>
+            <interceptor-stack name="myStack">
+            <interceptor-ref name="configdebug" />
+            <interceptor-ref name="defaultStack" /> </interceptor-stack>
+        </interceptors>
+        <default-interceptor-ref name="myStack" />
+    </package>
     <constant name="struts.devMode" value="true" />
     <constant name="struts.objectFactory" value="spring" />
 

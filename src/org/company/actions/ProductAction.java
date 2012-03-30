@@ -158,6 +158,7 @@ public class ProductAction extends BaseActionSupport{
             product.setCategory(categoryService.find(categoryId));
             product.setCreateTime(DateFormat.getInstance().format(new Date()));
             product.setAdminId(((AdminUser)ServletActionContext.getRequest().getSession().getAttribute("adminInfo")).getId());
+            product.setImageUrl(product.getImageUrl());
             productService.update(product);
         }
         addActionMessage("修改成功");

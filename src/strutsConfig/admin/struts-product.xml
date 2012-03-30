@@ -4,7 +4,7 @@
         "http://struts.apache.org/dtds/struts-2.1.7.dtd">
 
 <struts>
-    <package name="product" namespace="/product" extends="struts-default">
+    <package name="product" namespace="/product" extends="common">
         <action name="product_*" class="org.company.actions.ProductAction" method="{1}">
             <result>/WEB-INF/admin/product/listProduct.jsp</result>
             <result name="toAddProduct">/WEB-INF/admin/product/addProduct.jsp</result>

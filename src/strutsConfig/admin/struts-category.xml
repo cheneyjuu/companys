@@ -4,7 +4,7 @@
         "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
         "http://struts.apache.org/dtds/struts-2.1.7.dtd">
 <struts>
-    <package name="category" namespace="/category" extends="struts-default">
+    <package name="category" namespace="/category" extends="common">
         <action name="category_*" class="org.company.actions.CategoryAction" method="{1}">
             <result>/WEB-INF/admin/category/index.jsp</result>
         </action>

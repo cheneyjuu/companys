@@ -6,6 +6,7 @@
     <link href="/css/base.css" rel="stylesheet" type="text/css" />
     <link href="/images/admin/template/images/skin.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="/ckeditor/ckeditor.js"></script>
+    <script type="text/javascript" src="/js/jquery-1.7.1.min.js"></script>
     <style type="text/css">
         td{
             text-align: left;
@@ -16,6 +17,7 @@
 <body>
 <span class="left_bt" style="text-align: center;margin: 15px 0;display: block;">修改产品信息</span>
 <form action="/product/product_updateProduct.action" method="post" enctype="multipart/form-data">
+    <input type="hidden" name="product.id" value="<s:property value="product.id" />">
     <table cellpadding="0" cellspacing="0" border="1" width="80%" align="center">
         <tbody>
         <tr>
@@ -36,6 +38,7 @@
             <td>
                 <input type="file" name="image">
                 <img src="<s:property value="product.imageUrl" />" alt="原图" style="width: 25%; height: auto;">
+                <input type="hidden" name="product.imageUrl" value="<s:property value="product.imageUrl" />">
             </td>
         </tr>
         <tr>
@@ -97,11 +100,24 @@
         <tfoot>
         <tr>
             <td colspan="2" style="padding-left: 120px;">
-                <button style="display:block;width: 100px;height: 25px;margin: 5px 0 5px 0;">修改产品</button>
+                <button type="button" style="display:block;width: 100px;height: 25px;margin: 5px 0 5px 0;">修改产品</button>
             </td>
         </tr>
         </tfoot>
     </table>
 </form>
 </body>
+<script type="text/javascript">
+    $(function(){
+        $("button").click(function(){
+            var ov = $("select option:selected").val();
+            if(ov==-1){
+                alert("请选择产品类别");
+                return;
+            } else {
+                $("form").submit();
+            }
+        });
+    });
+</script>
 </html>

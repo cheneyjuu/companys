@@ -4,7 +4,7 @@
         "-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
         "http://struts.apache.org/dtds/struts-2.1.7.dtd">
 <struts>
-    <package name="adminUser" namespace="/adminUser" extends="struts-default">
+    <package name="adminUser" namespace="/adminUser" extends="common">
         <action name="adminLogin" class="org.company.actions.AdminUserAction" method="adminLogin">
             <result>/WEB-INF/admin/login.jsp</result>
         </action>

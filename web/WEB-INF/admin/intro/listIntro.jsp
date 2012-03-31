@@ -1,10 +1,3 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: juchen
-  Date: 12-3-24
-  Time: 上午10:19
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib uri="/struts-tags" prefix="s"%>
 <html>
@@ -12,6 +5,25 @@
     <title></title>
     <link href="/css/base.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="/js/base.js"></script>
+    <style type="text/css" media="screen">
+        .ui-table{
+            width:95%;
+            height:auto;
+            margin:0 auto;
+            border: 1px solid #999;
+            border-collapse:collapse;
+            font-family: Arial, "MS Trebuchet", sans-serif;
+        }
+        .ui-table thead tr th{
+            border: 1px solid #999;
+            padding: 0.2em;
+        }
+        .ui-table tbody tr td{
+            border: 1px solid #999;
+            padding: 0.2em;
+            font-size: 12px
+        }
+    </style>
 </head>
 <body>
 <form action="/adminUser/listIntro.action" method="post">
@@ -20,21 +32,24 @@
     <s:if test="#request.pageView.totalRecord">
 
         <h3 style="display: block;text-align: center;margin: 15px 0 15px 0;font-size: 16px;">公司简介管理页面</h3>
-        <table border="1" cellpadding="0" cellspacing="0" width="80%" align="center">
+        <table class="ui-table">
+            <thead>
             <tr>
-                <td>
+                <th>
                     序号
-                </td>
-                <td>
+                </th>
+                <th>
                     简介
-                </td>
-                <td>
+                </th>
+                <th>
                     添加时间
-                </td>
-                <td>
+                </th>
+                <th>
                     操作
-                </td>
+                </th>
             </tr>
+            </thead>
+            <tbody>
             <s:iterator value="#request.pageView.records" id="entity" status="status">
                 <tr>
                     <td>
@@ -53,6 +68,7 @@
                     </td>
                 </tr>
             </s:iterator>
+            </tbody>
         </table>
         <div style="text-align: center;margin: 15px 0 15px 0;">
             <s:if test="#request.pageView.totalPage > 1">

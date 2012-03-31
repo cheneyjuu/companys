@@ -15,6 +15,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.io.File;
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -97,10 +98,8 @@ public class AdminUserAction extends BaseActionSupport{
             return ERROR;
         }
     }
-    
+
     public String updateCompanyIntro(){
-        System.out.println("modify company intro method!");
-            System.out.println(companyIntro.getId());
         return SUCCESS;
     }
     
@@ -135,6 +134,7 @@ public class AdminUserAction extends BaseActionSupport{
         if (null!=adminUser){
             companyIntro.setCreateTime(SimpleDateFormat.getInstance().format(new Date()));
             companyIntro.setAdminId(adminUser.getId());
+            System.out.println(companyIntro.getIntro());
             uploadService.saveInfo(companyIntro);
             addActionMessage("公司简介添加成功！");
             return SUCCESS;
@@ -144,6 +144,7 @@ public class AdminUserAction extends BaseActionSupport{
         }
     }
 
+    private String uploadResult;
     public String upload() throws IOException {
         HttpSession session = ServletActionContext.getRequest().getSession();
         adminUser = (AdminUser)session.getAttribute("adminInfo");
@@ -160,6 +161,7 @@ public class AdminUserAction extends BaseActionSupport{
             companyIntro.setImageUrl(filePath+fileName);
             companyIntro.setAdminId(adminUser.getId());
             uploadService.saveInfo(companyIntro);
+            uploadResult = "简介添加成功";
             return SUCCESS;
         } else {
             addActionError("您还未登录或登录以超时！");
@@ -229,5 +231,13 @@ public class AdminUserAction extends BaseActionSupport{
 
     public void setCompanyIntro(CompanyIntro companyIntro) {
         this.companyIntro = companyIntro;
+    }
+
+    public String getUploadResult() {
+        return uploadResult;
+    }
+
+    public void setUploadResult(String uploadResult) {
+        this.uploadResult = uploadResult;
     }
 }

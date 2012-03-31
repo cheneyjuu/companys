@@ -5,6 +5,8 @@ import org.company.daos.base.BaseDaoSupport;
 import org.company.services.admin.UploadService;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 /**
  * User: Administrator
  * Date: 12-3-19
@@ -15,5 +17,11 @@ public class UploadServiceImpl extends BaseDaoSupport<CompanyIntro> implements U
     @Override
     public void saveInfo(CompanyIntro companyIntro) {
         super.save(companyIntro);
+    }
+
+    @Override
+    public CompanyIntro findIntro() {
+        List<CompanyIntro> companyIntroList = super.getSession().createSQLQuery("select * from companyIntro where introType='0010' order by id desc").addEntity(CompanyIntro.class).list();
+        return companyIntroList.size()>0?companyIntroList.get(0):null;
     }
 }

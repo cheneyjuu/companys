@@ -1,0 +1,55 @@
+<component name="libraryTable">
+  <library name="antlr-2.7.6">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/antlr-2.7.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/aopalliance-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/aspectjweaver.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-collections-3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-dbcp-1.2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-fileupload-1.2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-io-1.3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-logging-1.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-pool.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/dom4j-1.6.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ejb3-persistence.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/freemarker-2.3.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate-annotations.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate-commons-annotations.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/hibernate3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javassist-3.9.0.GA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.annotation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.ejb.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.jms.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.persistence.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.resource.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.servlet.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.servlet.jsp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/javax.servlet.jsp.jstl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jta-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/junit-4.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/log4j.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mysql-connector-java-5.1.7-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/ognl-2.7.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/org.springframework.aop-3.0.0.RC1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/org.springframework.asm-3.0.0.RC1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/org.springframework.beans-3.0.0.RC1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/org.springframework.context-3.0.0.RC1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/org.springframework.core-3.0.0.RC1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/org.springframework.expression-3.0.0.RC1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/org.springframework.jdbc-3.0.0.RC1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/org.springframework.orm-3.0.0.RC1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/org.springframework.test-3.0.0.RC1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/org.springframework.transaction-3.0.0.RC1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/org.springframework.web-3.0.0.RC1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-api-1.5.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/slf4j-log4j12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts2-convention-plugin-2.1.8.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts2-core-2.1.8.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/struts2-spring-plugin-2.1.8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/xwork-core-2.1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/configdebug-1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

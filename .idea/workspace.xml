@@ -3,75 +3,16 @@
   <component name="ChangeListManager">
     <list id="1c0ba24e-a0e2-4c4a-9c1d-b5e50e158a21" name="Default" comment="" />
     <list id="7d610193-9917-4b28-b981-c32b6b00efc4" name="公司简介列表" comment="修改了后台界面" />
-    <list default="true" id="39670c22-9653-41a8-b9e6-d820b5a618d8" name="uncommit list" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/04.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/05.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/06.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/07.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/08.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/09.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/11.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/12.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/1281316005.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/1290761380.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/13.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/14.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/17.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/18.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/bottom.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/content_one_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/contitle.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/corner_blue_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/corner_blue_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/corner_inset_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/corner_inset_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/corner_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/corner_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/dot.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/dot2.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/dot_blue.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/header_bg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/left_nav.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/listt.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/logo_bottom.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/magnifier.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/menu_left.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/menu_right.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/more.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/nav.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/newtitle.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/pbg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/ptitle.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/separate_line.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/titchange.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/title (1).jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/title.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/company/actions/user/Index.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/strutsConfig/struts-user.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/bottom.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/header.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/user/index.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/scrollPic.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/strutsConfig/user.xml" afterPath="$PROJECT_DIR$/web/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/company/actions/AdminUserAction.java" afterPath="$PROJECT_DIR$/src/org/company/actions/AdminUserAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/company/services/admin/ProductService.java" afterPath="$PROJECT_DIR$/src/org/company/services/admin/ProductService.java" />
+    <list default="true" id="39670c22-9653-41a8-b9e6-d820b5a618d8" name="uncommit list" comment="uncommit list">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/intro_left.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/user/intro.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/company/actions/user/Index.java" afterPath="$PROJECT_DIR$/src/org/company/actions/user/Index.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/company/services/admin/UploadService.java" afterPath="$PROJECT_DIR$/src/org/company/services/admin/UploadService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/company/services/admin/impl/ProductServiceImpl.java" afterPath="$PROJECT_DIR$/src/org/company/services/admin/impl/ProductServiceImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/company/services/admin/impl/UploadServiceImpl.java" afterPath="$PROJECT_DIR$/src/org/company/services/admin/impl/UploadServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/struts.xml" afterPath="$PROJECT_DIR$/src/struts.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strutsConfig/admin/struts-admin.xml" afterPath="$PROJECT_DIR$/src/strutsConfig/admin/struts-admin.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/admin/addIntro.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/admin/addIntro.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/admin/intro/listIntro.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/admin/intro/listIntro.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/admin/intro/uploadImage.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/admin/intro/uploadImage.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strutsConfig/struts-user.xml" afterPath="$PROJECT_DIR$/src/strutsConfig/struts-user.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/header.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/header.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/index.css" afterPath="$PROJECT_DIR$/web/css/index.css" />
     </list>
     <ignored path="companys.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -129,28 +70,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="intro.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/user/intro.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="67" selection-start="278" selection-end="278" vertical-scroll-proportion="0.17142858">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="addIntro.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/admin/addIntro.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="16" selection-start="1194" selection-end="1194" vertical-scroll-proportion="-8.038462">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/css/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="120" column="14" selection-start="2126" selection-end="2139" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/user/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="18" selection-start="568" selection-end="866" vertical-scroll-proportion="-7.6538463">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/header.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="17" selection-start="403" selection-end="403" vertical-scroll-proportion="-10.769231">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="struts-user.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/strutsConfig/struts-user.xml">
+          <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="17" selection-start="573" selection-end="573" vertical-scroll-proportion="-10.909091">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Index.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/company/actions/user/Index.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="41" selection-start="759" selection-end="759" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductAction.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/company/actions/ProductAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="22" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminUserAction.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/company/actions/AdminUserAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="144" column="5" selection-start="4454" selection-end="4454" vertical-scroll-proportion="0.81841433">
+            <state line="78" column="42" selection-start="2154" selection-end="2154" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -165,19 +145,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="addIntro.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/admin/addIntro.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="39" selection-start="1620" selection-end="1620" vertical-scroll-proportion="0.7692308">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="UploadServiceImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/company/services/admin/impl/UploadServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="5" selection-start="840" selection-end="840" vertical-scroll-proportion="0.0">
+            <state line="20" column="0" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -200,22 +171,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/web/css/index.css" />
-        <option value="$PROJECT_DIR$/web/bottom.jsp" />
-        <option value="$PROJECT_DIR$/src/strutsConfig/user.xml" />
-        <option value="$PROJECT_DIR$/web/index.jsp" />
         <option value="$PROJECT_DIR$/src/struts.xml" />
         <option value="$PROJECT_DIR$/src/strutsConfig/admin/struts-admin.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/admin/intro/uploadImage.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/admin/intro/listIntro.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/user/index.jsp" />
-        <option value="$PROJECT_DIR$/src/org/company/actions/user/Index.java" />
         <option value="$PROJECT_DIR$/src/org/company/services/admin/ProductService.java" />
         <option value="$PROJECT_DIR$/src/org/company/services/admin/impl/ProductServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/org/company/services/admin/UploadService.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/admin/addIntro.jsp" />
-        <option value="$PROJECT_DIR$/src/org/company/services/admin/impl/UploadServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/org/company/actions/AdminUserAction.java" />
+        <option value="$PROJECT_DIR$/src/strutsConfig/struts-user.xml" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/user/index.jsp" />
+        <option value="$PROJECT_DIR$/web/css/index.css" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/header.jsp" />
+        <option value="$PROJECT_DIR$/src/org/company/services/admin/UploadService.java" />
+        <option value="$PROJECT_DIR$/src/org/company/actions/user/Index.java" />
+        <option value="$PROJECT_DIR$/src/org/company/services/admin/impl/UploadServiceImpl.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/user/intro.jsp" />
       </list>
     </option>
   </component>
@@ -229,7 +200,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="1440" />
-    <option name="height" value="800" />
+    <option name="height" value="874" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -381,6 +352,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="companys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="companys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -425,7 +418,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -440,60 +433,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="companys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="companys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="strutsConfig" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="companys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="companys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="companys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="companys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -893,7 +832,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="800" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="874" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -902,19 +841,19 @@
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3843888" sideWeight="0.49712643" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34661356" sideWeight="0.49712643" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.0" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32842416" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802126" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892805" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21839081" sideWeight="0.6156112" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21839081" sideWeight="0.6533865" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3784916" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1028,26 +967,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/admin/intro/uploadImage.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="4" selection-start="148" selection-end="675" vertical-scroll-proportion="-3.8461537" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="253" column="1" selection-start="4651" selection-end="4651" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strutsConfig/struts-user.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="9" selection-start="443" selection-end="443" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/bottom.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="6" selection-start="233" selection-end="233" vertical-scroll-proportion="-3.8461537" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/company/services/admin/impl/ProductServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="8" selection-start="590" selection-end="602" vertical-scroll-proportion="0.5396419" />
@@ -1056,11 +975,6 @@
     <entry file="file://$PROJECT_DIR$/src/org/company/services/admin/ProductService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="28" selection-start="304" selection-end="304" vertical-scroll-proportion="0.51150894" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/user/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="24" selection-start="230" selection-end="230" vertical-scroll-proportion="0.32876712" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/admin/product/listProduct.jsp">
@@ -1076,34 +990,6 @@
     <entry file="file://$PROJECT_DIR$/src/org/company/actions/ProductAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="22" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/company/actions/user/Index.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="41" selection-start="759" selection-end="759" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/company/services/admin/UploadService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/company/services/admin/impl/UploadServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="5" selection-start="840" selection-end="840" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/admin/addIntro.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="39" selection-start="1620" selection-end="1620" vertical-scroll-proportion="0.7692308">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
@@ -1124,7 +1010,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/company/actions/AdminUserAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="5" selection-start="4454" selection-end="4454" vertical-scroll-proportion="0.81841433">
+        <state line="137" column="21" selection-start="4252" selection-end="4252" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strutsConfig/struts-user.xml">
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="17" selection-start="573" selection-end="573" vertical-scroll-proportion="-10.909091">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="120" column="14" selection-start="2126" selection-end="2139" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="17" selection-start="403" selection-end="403" vertical-scroll-proportion="-10.769231">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/user/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="18" selection-start="568" selection-end="866" vertical-scroll-proportion="-7.6538463">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/company/actions/user/Index.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="78" column="42" selection-start="2154" selection-end="2154" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/company/services/admin/UploadService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/company/services/admin/impl/UploadServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/admin/addIntro.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="16" selection-start="1194" selection-end="1194" vertical-scroll-proportion="-8.038462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/user/intro.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="67" selection-start="278" selection-end="278" vertical-scroll-proportion="0.17142858">
           <folding />
         </state>
       </provider>

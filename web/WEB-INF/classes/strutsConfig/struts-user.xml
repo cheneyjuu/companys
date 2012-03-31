@@ -8,5 +8,8 @@
         <action name="index" class="org.company.actions.user.Index" method="index">
             <result>/WEB-INF/user/index.jsp</result>
         </action>
+        <action name="intro" class="org.company.actions.user.Index" method="intro">
+            <result>/WEB-INF/user/intro.jsp</result>
+        </action>
     </package>
 </struts>

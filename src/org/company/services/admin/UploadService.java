@@ -14,7 +14,7 @@ public interface UploadService extends IBaseDao<CompanyIntro>{
 
     void saveInfo(CompanyIntro companyIntro);
 
-    CompanyIntro findIntro();
+    CompanyIntro findIntro(String introType);
 
 
 }

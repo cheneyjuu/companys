@@ -8,10 +8,10 @@
     <div id="nav">
         <ul>
             <li>
-                <a href="#">首页</a>
+                <a href="/index.action">首页</a>
             </li>
             <li>
-                <a href="#">公司简介</a>
+                <a href="/intro.action">公司简介</a>
             </li>
             <li>
                 <a href="#">产品中心</a>

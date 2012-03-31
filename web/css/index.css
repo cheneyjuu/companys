@@ -75,6 +75,12 @@ body{
     height: 578px;
     background: url('/images/user/left_nav.jpg') no-repeat;
 }
+#intro_left_nav{
+    float: left;
+    width: 206px;
+    height: 501px;
+    background: url('/images/user/intro_left.jpg') no-repeat;
+}
 .tb_left{
     float: left;
     width: 214px;
@@ -112,11 +118,18 @@ body{
     background: url('/images/user/content_one_bg.jpg') repeat-x;
     background-color: #f4f4f4;
 }
+#intro_content{
+    float: left;
+    width: 799px;
+    height: 501px;
+    background: url('/images/user/content_one_bg.jpg') repeat-x;
+    background-color: #f4f4f4;
+}
 #bottom{
     background: url('/images/user/bottom.jpg') no-repeat;
     width: 100%;
     height: 119px;
-    margin-left: 3px;
+    background-color: #f4f4f4;
 }
 d1{
     width:443px;

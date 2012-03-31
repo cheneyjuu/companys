@@ -20,8 +20,9 @@ public class UploadServiceImpl extends BaseDaoSupport<CompanyIntro> implements U
     }
 
     @Override
-    public CompanyIntro findIntro() {
-        List<CompanyIntro> companyIntroList = super.getSession().createSQLQuery("select * from companyIntro where introType='0010' order by id desc").addEntity(CompanyIntro.class).list();
+    public CompanyIntro findIntro(String introType) {
+        List<CompanyIntro> companyIntroList = super.getSession().createSQLQuery("select * from companyIntro " +
+                "where introType='"+introType+"' order by id desc").addEntity(CompanyIntro.class).list();
         return companyIntroList.size()>0?companyIntroList.get(0):null;
     }
 }

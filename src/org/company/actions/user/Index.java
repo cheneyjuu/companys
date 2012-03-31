@@ -1,12 +1,17 @@
 package org.company.actions.user;
 
+import org.apache.struts2.ServletActionContext;
 import org.company.actions.base.BaseActionSupport;
 import org.company.beans.Category;
 import org.company.beans.CompanyIntro;
+import org.company.beans.Product;
+import org.company.beans.base.PageView;
 import org.company.services.admin.CategoryService;
+import org.company.services.admin.ProductService;
 import org.company.services.admin.UploadService;
 
 import javax.annotation.Resource;
+import javax.servlet.http.HttpServletRequest;
 import java.util.List;
 
 public class Index extends BaseActionSupport{
@@ -15,16 +20,35 @@ public class Index extends BaseActionSupport{
     private CategoryService categoryService;
     @Resource
     private UploadService uploadService;
+    @Resource
+    private ProductService productService;
     private List<Category> categoryList;
     private List<CompanyIntro> introList;
     private CompanyIntro companyIntro;
     private String type;
     private String typeName;
 
+    private Integer productId;
+
     public String index(){
 
         categoryList = categoryService.findAllCategory();
         companyIntro = uploadService.findIntro(type);
+        return SUCCESS;
+    }
+
+    public String product(){
+
+        categoryList = categoryService.findAllCategory();
+        HttpServletRequest request = ServletActionContext.getRequest();
+        int maxResult = 9;
+        PageView<Product> pageView = new PageView<Product>(maxResult,getPage());
+        if (null!=productId){
+            pageView.setQueryResult(productService.getScrollData(pageView.getFirstResult(),maxResult,"category.id="+productId,null,null));
+        } else {
+            pageView.setQueryResult(productService.getScrollData(pageView.getFirstResult(),maxResult));
+        }
+        request.setAttribute("pageView", pageView);
         return SUCCESS;
     }
 
@@ -94,5 +118,13 @@ public class Index extends BaseActionSupport{
 
     public void setTypeName(String typeName) {
         this.typeName = typeName;
+    }
+
+    public Integer getProductId() {
+        return productId;
+    }
+
+    public void setProductId(Integer productId) {
+        this.productId = productId;
     }
 }

@@ -18,7 +18,7 @@
 
             <div   class="productclass_dolphin" style="height: 330px; overflow:hidden;" >
                 <s:iterator value="categoryList" id="entity">
-                    <a href="#" class="productclass_dolphin" ><s:property value="#entity.categoryName" /></a>
+                    <a href="product.action?productId=<s:property value="#entity.id" />" class="productclass_dolphin" ><s:property value="#entity.categoryName" /></a>
                 </s:iterator>
             </div>
 

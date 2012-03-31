@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="/css/base.css" />
     <link rel="stylesheet" type="text/css" href="/css/index.css" />
     <script type="text/javascript" src="/js/scrollPic.js"></script>
+    <script type="text/javascript" src="/js/jquery-1.7.1.min.js"></script>
 </head>
 <body>
 <div id="container">
@@ -13,12 +14,12 @@
 
     <div id="intro_left_nav">
         <div  class="productclass_dolphin" style="height: 330px; " >
-            <a href="/intro.action?type=0010" class="productclass_dolphin" style="width: 100%;">公司简介</a>
-            <a href="/intro.action?type=0020" class="productclass_dolphin" style="width: 100%;">企业文化</a>
-            <a href="/intro.action?type=0030" class="productclass_dolphin" style="width: 100%;">组织机构</a>
-            <a href="/intro.action?type=0040" class="productclass_dolphin" style="width: 100%;">成功案例</a>
-            <a href="/intro.action?type=0050" class="productclass_dolphin" style="width: 100%;">荣誉资质</a>
-            <a href="/intro.action?type=0060" class="productclass_dolphin" style="width: 100%;">销售网络</a>
+            <a href="javascript:void(0);" class="productclass_dolphin" style="width: 100%;">公司简介</a>
+            <a href="javascript:void(0);" class="productclass_dolphin" style="width: 100%;">企业文化</a>
+            <a href="javascript:void(0);" class="productclass_dolphin" style="width: 100%;">组织机构</a>
+            <a href="javascript:void(0);" class="productclass_dolphin" style="width: 100%;">成功案例</a>
+            <a href="javascript:void(0);" class="productclass_dolphin" style="width: 100%;">荣誉资质</a>
+            <a href="javascript:void(0);" class="productclass_dolphin" style="width: 100%;">销售网络</a>
         </div>
     </div>
 
@@ -35,4 +36,16 @@
     <jsp:include page="../bottom.jsp" />
 </div>
 </body>
+<script type="text/javascript">
+    $(function(){
+        var typeId;
+        var curId;
+        $("#intro_left_nav div a").each(function(i){
+            $(this).click(function(){
+                curId = i+1;
+                window.location.href="/intro.action?type=00"+curId+"0";
+            });
+        });
+    });
+</script>
 </html>

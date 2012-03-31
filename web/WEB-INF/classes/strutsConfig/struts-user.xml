@@ -11,5 +11,8 @@
         <action name="intro" class="org.company.actions.user.Index" method="intro">
             <result>/WEB-INF/user/intro.jsp</result>
         </action>
+        <action name="product" class="org.company.actions.user.Index" method="product">
+            <result>/WEB-INF/user/product.jsp</result>
+        </action>
     </package>
 </struts>

@@ -14,7 +14,7 @@
                 <a href="/intro.action">公司简介</a>
             </li>
             <li>
-                <a href="#">产品中心</a>
+                <a href="/product.action">产品中心</a>
             </li>
             <li>
                 <a href="#">新闻资讯</a>

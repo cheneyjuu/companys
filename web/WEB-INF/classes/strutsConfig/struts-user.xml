@@ -14,5 +14,8 @@
         <action name="product" class="org.company.actions.user.Index" method="product">
             <result>/WEB-INF/user/product.jsp</result>
         </action>
+        <action name="detail" class="org.company.actions.user.Index" method="productDetails">
+            <result>/WEB-INF/user/productDetail.jsp</result>
+        </action>
     </package>
 </struts>

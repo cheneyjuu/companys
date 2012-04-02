@@ -103,11 +103,33 @@
                 </div>
             </div>
             <!-- /*循环图片*/-->
-            <div id="content_product">
+            <div id="content_product" style="height: 220px;">
                 <div style="float:right;width:49px;height:16px;">
-                    <a style="display:inline;" href="page/html/company.php">
+                    <a style="display:inline;" href="product.action">
                         <img style="border:0px;padding-top:19px;margin-left: -60px;" src="/images/user/more.jpg">
                     </a>
+                </div>
+                <div class="fn-clear"></div>
+                <div style="width: 95%;height: 100%;">
+                    <s:if test="#request.pageView.totalRecord">
+                        <s:iterator value="#request.pageView.records" id="entity">
+                            <div>
+                                <div id="show_product">
+                                    <a href="detail.action?productId=<s:property value="#entity.id" />" target="_self">
+                                        <img id="show_pro_img" src="<s:property value="#entity.imageUrl" />">
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="detail.action?productId=<s:property value="#entity.id" />" target="_self">
+                                        <p id="show_name" ><s:property value="#entity.productName" /></p>
+                                    </a>
+                                </div>
+                            </div>
+                        </s:iterator>
+                    </s:if>
+                    <s:else>
+                        <p style="text-align: center; margin: 100px 0;">没有记录</p>
+                    </s:else>
                 </div>
             </div>
 

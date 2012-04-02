@@ -27,36 +27,30 @@
             <p class="left_addres_p">邮箱:gegmingjun001@gmail.com</p>
         </div>
     </div>
-        <div id="content">
-    <form action="product.action" method="post">
-        <s:hidden name="page"></s:hidden>
-        <s:if test="#request.pageView.totalRecord">
-            <s:iterator value="#request.pageView.records" id="entity">
-                <div>
-                    <div id="show_product">
-                        <a href="detail.action?productId=<s:property value="#entity.id" />" target="_self">
-                            <img id="show_pro_img" src="<s:property value="#entity.imageUrl" />">
-                        </a>
-                    </div>
-                    <div>
-                        <a href="detail.action?productId=<s:property value="#entity.id" />" target="_self">
-                            <p id="show_name" ><s:property value="#entity.productName" /></p>
-                        </a>
-                    </div>
+    <div id="content">
+        <div id="content_product">
+            <span id="show_p_name"><s:property value="product.productName" /></span>
+        </div>
+        <div>
+            <!-- 展示图片详细 -->
+            <div	id="content_left">
+                <div style="border: 1px;margin-left: 30px;">
+                    <img id="show_pro_img_detil" src="<s:property value="product.imageUrl" />">
                 </div>
-            </s:iterator>
-            <div class="fn-clear"></div>
-            <div style="text-align: left;margin-left: 60px;">
-                <s:if test="#request.pageView.totalPage > 1">
-                    <%@ include file="/WEB-INF/content/share/page.jsp"%>
-                </s:if>
+
             </div>
-        </s:if>
-        <s:else>
-            没有记录
-        </s:else>
-    </form>
+            <div id="content_right">
+                <span style="color:red;">产品特点:<br/><s:property value="product.feature" escape="false" /></span>
             </div>
+        </div>
+        <div style="background: url(/images/user/titchange.jpg) no-repeat;height: 30px;margin: 0px;margin-top: 400px;margin-left: 30px;">
+            <span id="show_p_detil">详细说明</span>
+            <hr style="width:90%;height:2px">
+        </div>
+        <div style="width: 650px;float: left;margin-left: 30px; margin-top: 20px;">
+            <s:property value="product.description" escape="false" />
+        </div>
+    </div>
     <div class="fn-clear"></div>
     <jsp:include page="../bottom.jsp" />
 </div>

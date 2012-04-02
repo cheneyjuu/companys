@@ -229,6 +229,16 @@ a.productclass_dolphin:link,a.productclass_dolphin:visited,a.productclass_dolphi
     color:#202020;
 }
 
+a p:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+a:link,a:visited,a:active{
+    text-decoration: none;
+    color:#202020;
+}
+
 a.productclass_dolphin:hover{
     display:block;
     color:#e10000;
@@ -289,7 +299,16 @@ a.newslist:hover {
     float:right;width:49px;height:16px;
 }
 #content_product{
-    float: left;width: 760px;border: 0px none;color: red;padding: 0pt;margin: 0pt;background: url(/images/user/contitle.jpg) no-repeat scroll 0% 0% transparent;height: 44px;margin-top: 20px;margin-left: 10px;
+    float: left;
+    width: 800px;
+    border: 0px none;
+    color: red;
+    padding: 0pt;
+    margin: 0pt;
+    background: url(/images/user/ptitle.jpg) no-repeat scroll 0% 0% transparent;
+    height: 44px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 #show_product{
     float: left;background: url(/images/user/pbg.jpg) no-repeat scroll 0 2px transparent;width: 160px;height: 160px;margin-left: 50px;margin-top: 25px;
@@ -303,4 +322,23 @@ a.newslist:hover {
 }
 #show_p_name{
     float: left;font: bold 14px/37px Simsun;color: black;padding-left: 45px;
+}
+#show_pro_img_detil{
+    width: 400px;
+    height: 300px;
+    margin-top: 7px;
+}
+#show_p_detil{
+    width: 82px;
+    color: white !important;
+    text-align: left;
+    padding-left: 24px;
+    height: 28px;
+    line-height: 28px;
+    CURSOR: pointer;
+}
+#show_introduce{
+    margin-left:35px;
+    margin-top:20px;
+    text-indent: 0.2em;
 }

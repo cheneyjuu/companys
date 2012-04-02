@@ -30,10 +30,17 @@ public class Index extends BaseActionSupport{
 
     private Integer productId;
 
+    private List<Product> productList;
     public String index(){
 
         categoryList = categoryService.findAllCategory();
         companyIntro = uploadService.findIntro(type);
+
+        HttpServletRequest request = ServletActionContext.getRequest();
+        int maxResult = 3;
+        PageView<Product> pageView = new PageView<Product>(maxResult,getPage());
+        pageView.setQueryResult(productService.getScrollData(pageView.getFirstResult(),maxResult));
+        request.setAttribute("pageView", pageView);
         return SUCCESS;
     }
 
@@ -49,6 +56,16 @@ public class Index extends BaseActionSupport{
             pageView.setQueryResult(productService.getScrollData(pageView.getFirstResult(),maxResult));
         }
         request.setAttribute("pageView", pageView);
+        return SUCCESS;
+    }
+    private Product product;
+
+    /**
+     * 产品详情
+     * @return
+     */
+    public String productDetails(){
+       product = productService.find(productId);
         return SUCCESS;
     }
 
@@ -126,5 +143,21 @@ public class Index extends BaseActionSupport{
 
     public void setProductId(Integer productId) {
         this.productId = productId;
+    }
+
+    public Product getProduct() {
+        return product;
+    }
+
+    public void setProduct(Product product) {
+        this.product = product;
+    }
+
+    public List<Product> getProductList() {
+        return productList;
+    }
+
+    public void setProductList(List<Product> productList) {
+        this.productList = productList;
     }
 }

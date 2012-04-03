@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list id="1c0ba24e-a0e2-4c4a-9c1d-b5e50e158a21" name="Default" comment="" />
     <list id="7d610193-9917-4b28-b981-c32b6b00efc4" name="公司简介列表" comment="修改了后台界面" />
-    <list default="true" id="39670c22-9653-41a8-b9e6-d820b5a618d8" name="uncommit list" comment="uncommit list">
+    <list default="true" id="39670c22-9653-41a8-b9e6-d820b5a618d8" name="uncommit list" comment="后台新闻功能">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/company/actions/NewsAction.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/company/beans/News.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/org/company/services/admin/NewsService.java" />
@@ -13,7 +13,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/admin/news/listNews.jsp" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/admin/news/updateNews.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/companys.iml" afterPath="$PROJECT_DIR$/companys.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/struts.xml" afterPath="$PROJECT_DIR$/src/struts.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/adminPage/left.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/adminPage/left.jsp" />
     </list>
@@ -274,7 +273,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
+    <option name="STATE" value="1" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -931,7 +930,11 @@
       <created>1333076993521</created>
       <updated>1333076993521</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="后台新闻功能">
+      <created>1333434560960</created>
+      <updated>1333434560960</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1022,7 +1025,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改了后台界面" />
+    <option name="LAST_COMMIT_MESSAGE" value="后台新闻功能" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1047,6 +1050,7 @@
     <MESSAGE value="产品类别新增了categoryType字段，用来标识产品类别和新闻类别。1代表产品类别，2代表新闻类别" />
     <MESSAGE value="产品维护功能，修改功能暂缺😄" />
     <MESSAGE value="修改了后台界面" />
+    <MESSAGE value="后台新闻功能" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />

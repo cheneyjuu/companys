@@ -20,6 +20,7 @@
     <include file="strutsConfig/admin/struts-admin.xml" />
     <include file="strutsConfig/admin/struts-category.xml" />
     <include file="strutsConfig/admin/struts-product.xml" />
+    <include file="strutsConfig/admin/struts-news.xml" />
 
     <include file="strutsConfig/struts-user.xml" />
 </struts>

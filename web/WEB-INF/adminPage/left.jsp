@@ -176,8 +176,8 @@ H1 a {
           </tr>
         </table>
         <ul class="MM">
-		  <li><a href="＃" target="main">新闻列表</a></li>
-          <li><a href="＃" target="main">添加新闻</a></li>
+		  <li><a href="/news/news_listNews.action" target="main">新闻列表</a></li>
+          <li><a href="/news/news_toAddNews.action" target="main">添加新闻</a></li>
         </ul>
       </div>
       </div>

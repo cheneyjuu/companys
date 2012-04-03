@@ -17,7 +17,7 @@
                 <a href="/product.action">产品中心</a>
             </li>
             <li>
-                <a href="#">新闻资讯</a>
+                <a href="/news.action">新闻资讯</a>
             </li>
             <li>
                 <a href="#">电子目录</a>

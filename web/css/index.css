@@ -81,6 +81,12 @@ body{
     height: 501px;
     background: url('/images/user/intro_left.jpg') no-repeat;
 }
+#left_news_nav{
+    float: left;
+    width: 198px;
+    height: 403px;
+    background: url("/images/user/navigation.jpg") no-repeat;
+}
 .tb_left{
     float: left;
     width: 214px;
@@ -341,4 +347,25 @@ a.newslist:hover {
     margin-left:35px;
     margin-top:20px;
     text-indent: 0.2em;
+}
+div#newsquery{
+    margin-left: 20px;
+}
+div#newsquery li.title {
+    padding-left: 20px;
+}
+div#newsquery li {
+    list-style-type: none;
+    height: 36px;
+    font-size: 12px;
+    overflow: hidden;
+    line-height: 28px;
+    background: url(/images/user/line.jpg) 0px 0px no-repeat;
+}
+#content_id p{
+    text-indent: 0.2em;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: #202020;
 }

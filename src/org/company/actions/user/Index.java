@@ -4,15 +4,20 @@ import org.apache.struts2.ServletActionContext;
 import org.company.actions.base.BaseActionSupport;
 import org.company.beans.Category;
 import org.company.beans.CompanyIntro;
+import org.company.beans.News;
 import org.company.beans.Product;
 import org.company.beans.base.PageView;
 import org.company.services.admin.CategoryService;
+import org.company.services.admin.NewsService;
 import org.company.services.admin.ProductService;
 import org.company.services.admin.UploadService;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.List;
+import java.util.Map;
 
 public class Index extends BaseActionSupport{
     private Category category;
@@ -22,6 +27,8 @@ public class Index extends BaseActionSupport{
     private UploadService uploadService;
     @Resource
     private ProductService productService;
+    @Resource
+    private NewsService newsService;
     private List<Category> categoryList;
     private List<CompanyIntro> introList;
     private CompanyIntro companyIntro;
@@ -31,10 +38,12 @@ public class Index extends BaseActionSupport{
     private Integer productId;
 
     private List<Product> productList;
+    private List<News> newsList;
     public String index(){
 
         categoryList = categoryService.findAllCategory();
         companyIntro = uploadService.findIntro(type);
+        newsList = newsService.getNewsList(6);
 
         HttpServletRequest request = ServletActionContext.getRequest();
         int maxResult = 3;
@@ -58,6 +67,26 @@ public class Index extends BaseActionSupport{
         request.setAttribute("pageView", pageView);
         return SUCCESS;
     }
+
+    private Integer newsId;
+    public String news(){
+        HttpServletRequest request = ServletActionContext.getRequest();
+        int maxResult = 6;
+        PageView<News> pageView = new PageView<News>(maxResult,getPage());
+        if (null!=newsId){
+            pageView.setQueryResult(newsService.getScrollData(pageView.getFirstResult(),maxResult,"newsType="+newsId,null,null));
+        } else {
+            pageView.setQueryResult(newsService.getScrollData(pageView.getFirstResult(), maxResult));
+        }
+        request.setAttribute("pageView", pageView);
+        return SUCCESS;
+    }
+
+    private News news;
+    public String newsDetail(){
+        news = newsService.find(news.getId());
+        return SUCCESS;
+    }
     private Product product;
 
     /**
@@ -66,7 +95,7 @@ public class Index extends BaseActionSupport{
      */
     public String productDetails(){
        product = productService.find(productId);
-        return SUCCESS;
+       return SUCCESS;
     }
 
     public List getCategoryList() {
@@ -159,5 +188,29 @@ public class Index extends BaseActionSupport{
 
     public void setProductList(List<Product> productList) {
         this.productList = productList;
+    }
+
+    public List<News> getNewsList() {
+        return newsList;
+    }
+
+    public void setNewsList(List<News> newsList) {
+        this.newsList = newsList;
+    }
+
+    public News getNews() {
+        return news;
+    }
+
+    public void setNews(News news) {
+        this.news = news;
+    }
+
+    public Integer getNewsId() {
+        return newsId;
+    }
+
+    public void setNewsId(Integer newsId) {
+        this.newsId = newsId;
     }
 }

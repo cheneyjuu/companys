@@ -57,50 +57,17 @@
                         </div>
                     </div>
                     <!-- /*新闻展示* <a class="newslist">sdsds</a>/-->
-                    <div >
-                        <ul  class="newslist">
-                            <li class="newslist" >
-                                <a class="newslist">顶顶顶</a>
-                            </li>
-                        </ul>
+                    <div style="height: 180px;">
+                        <s:iterator value="newsList" id="entity">
+                            <div >
+                                <ul  class="newslist">
+                                    <li class="newslist" >
+                                        <a href="#" class="newslist"><s:property value="title" /></a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </s:iterator>
                     </div>
-                    <div >
-                        <ul  class="newslist">
-                            <li class="newslist" >
-                                <a class="newslist">顶顶顶</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div >
-                        <ul  class="newslist">
-                            <li class="newslist" >
-                                <a class="newslist">顶顶顶</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div >
-                        <ul  class="newslist">
-                            <li class="newslist" >
-                                <a class="newslist">顶顶顶</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div >
-                        <ul  class="newslist">
-                            <li class="newslist" >
-                                <a class="newslist">顶顶顶</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!--style="margin:0px;padding:0px"-->
-                    <div >
-                        <ul  class="newslist">
-                            <li class="newslist" >
-                                <a class="newslist">顶顶顶</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
             </div>
             <!-- /*循环图片*/-->
             <div id="content_product" style="height: 220px;">

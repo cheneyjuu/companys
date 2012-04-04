@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list id="1c0ba24e-a0e2-4c4a-9c1d-b5e50e158a21" name="Default" comment="" />
     <list id="7d610193-9917-4b28-b981-c32b6b00efc4" name="公司简介列表" comment="修改了后台界面" />
-    <list default="true" id="39670c22-9653-41a8-b9e6-d820b5a618d8" name="uncommit list" comment="修改一个BUG">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="39670c22-9653-41a8-b9e6-d820b5a618d8" name="uncommit list" comment="修改一个BUG" />
     <ignored path="companys.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -92,7 +90,7 @@
       <file leaf-file-name="AdminUserAction.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/org/company/actions/AdminUserAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="135" column="66" selection-start="4171" selection-end="4171" vertical-scroll-proportion="0.2778626">
+            <state line="131" column="54" selection-start="3907" selection-end="3907" vertical-scroll-proportion="0.1557252">
               <folding />
             </state>
           </provider>
@@ -966,7 +964,11 @@
       <created>1333542033933</created>
       <updated>1333542033933</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="修改一个BUG">
+      <created>1333542053867</created>
+      <updated>1333542053867</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1217,7 +1219,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/company/actions/AdminUserAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="135" column="66" selection-start="4171" selection-end="4171" vertical-scroll-proportion="0.2778626">
+        <state line="131" column="54" selection-start="3907" selection-end="3907" vertical-scroll-proportion="0.1557252">
           <folding />
         </state>
       </provider>

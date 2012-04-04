@@ -56,7 +56,7 @@
                         <s:property value="#status.index+1" />
                     </td>
                     <td>
-                        <s:property value="#entity.intro" escape="false" />
+                        <s:property value="#entity.intro.length()>100?#entity.intro.substring(0,100)+' ...':#entity.intro" escape="false" />
                     </td>
                     <td>
                         <s:property value="#entity.createTime" />

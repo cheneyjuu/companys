@@ -132,9 +132,9 @@ public class AdminUserAction extends BaseActionSupport{
         HttpSession session = ServletActionContext.getRequest().getSession();
         adminUser = (AdminUser)session.getAttribute("adminInfo");
         if (null!=adminUser){
-            companyIntro.setCreateTime(SimpleDateFormat.getInstance().format(new Date()));
+            SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+            companyIntro.setCreateTime(dateFormat.format(new Date()));
             companyIntro.setAdminId(adminUser.getId());
-            System.out.println(companyIntro.getIntro());
             uploadService.saveInfo(companyIntro);
             addActionMessage("公司简介添加成功！");
             return SUCCESS;

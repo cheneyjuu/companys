@@ -42,7 +42,7 @@ public class Index extends BaseActionSupport{
     public String index(){
 
         categoryList = categoryService.findAllCategory();
-        companyIntro = uploadService.findIntro(type);
+        companyIntro = uploadService.findIntro("0010");
         newsList = newsService.getNewsList(6);
 
         HttpServletRequest request = ServletActionContext.getRequest();

@@ -3,19 +3,11 @@
   <component name="ChangeListManager">
     <list id="1c0ba24e-a0e2-4c4a-9c1d-b5e50e158a21" name="Default" comment="" />
     <list id="7d610193-9917-4b28-b981-c32b6b00efc4" name="公司简介列表" comment="修改了后台界面" />
-    <list default="true" id="39670c22-9653-41a8-b9e6-d820b5a618d8" name="uncommit list" comment="后台新闻功能">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/line.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/user/navigation.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/user/news.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/user/newsDetail.jsp" />
+    <list default="true" id="39670c22-9653-41a8-b9e6-d820b5a618d8" name="uncommit list" comment="前台新闻功能">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/company/actions/AdminUserAction.java" afterPath="$PROJECT_DIR$/src/org/company/actions/AdminUserAction.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/company/actions/user/Index.java" afterPath="$PROJECT_DIR$/src/org/company/actions/user/Index.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/company/services/admin/NewsService.java" afterPath="$PROJECT_DIR$/src/org/company/services/admin/NewsService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/org/company/services/admin/impl/NewsServiceImpl.java" afterPath="$PROJECT_DIR$/src/org/company/services/admin/impl/NewsServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/strutsConfig/struts-user.xml" afterPath="$PROJECT_DIR$/src/strutsConfig/struts-user.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/header.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/header.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/user/index.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/user/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/css/index.css" afterPath="$PROJECT_DIR$/web/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/admin/intro/listIntro.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/admin/intro/listIntro.jsp" />
     </list>
     <ignored path="companys.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,39 +65,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="news.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/user/news.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="18" selection-start="2481" selection-end="2481" vertical-scroll-proportion="-10.615385">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="listIntro.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/admin/intro/listIntro.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="7" selection-start="1216" selection-end="1216" vertical-scroll-proportion="-5.3846154">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Index.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/company/actions/user/Index.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="0" selection-start="3235" selection-end="3235" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#2676#2682#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/user/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="105" selection-start="4416" selection-end="4416" vertical-scroll-proportion="-6.8461537">
+            <state line="40" column="32" selection-start="1274" selection-end="1274" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="news.jsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/user/news.jsp">
+      <file leaf-file-name="AdminUserAction.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/company/actions/AdminUserAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="48" selection-start="1492" selection-end="1492" vertical-scroll-proportion="0.4651163">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="intro.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/user/intro.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="15.384615">
+            <state line="135" column="66" selection-start="4171" selection-end="4171" vertical-scroll-proportion="0.2778626">
               <folding />
             </state>
           </provider>
@@ -114,7 +104,7 @@
       <file leaf-file-name="header.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/header.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="16" selection-start="420" selection-end="420" vertical-scroll-proportion="-7.6923075">
+            <state line="15" column="16" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -122,11 +112,8 @@
       </file>
       <file leaf-file-name="struts-user.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/strutsConfig/struts-user.xml">
-          <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-            <state />
-          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="52" selection-start="555" selection-end="555" vertical-scroll-proportion="-0.90909094">
+            <state line="11" column="52" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -135,7 +122,7 @@
       <file leaf-file-name="newsDetail.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/WEB-INF/user/newsDetail.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="27" selection-start="1286" selection-end="1296" vertical-scroll-proportion="-21.538462">
+            <state line="28" column="27" selection-start="1286" selection-end="1296" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -185,8 +172,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/struts.xml" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/adminPage/left.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/admin/news/listNews.jsp" />
         <option value="$PROJECT_DIR$/src/strutsConfig/admin/struts-news.xml" />
         <option value="$PROJECT_DIR$/web/WEB-INF/admin/news/addNews.jsp" />
@@ -197,10 +182,12 @@
         <option value="$PROJECT_DIR$/web/WEB-INF/user/index.jsp" />
         <option value="$PROJECT_DIR$/web/WEB-INF/header.jsp" />
         <option value="$PROJECT_DIR$/src/strutsConfig/struts-user.xml" />
-        <option value="$PROJECT_DIR$/src/org/company/actions/user/Index.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/user/newsDetail.jsp" />
         <option value="$PROJECT_DIR$/web/css/index.css" />
         <option value="$PROJECT_DIR$/web/WEB-INF/user/news.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/admin/intro/listIntro.jsp" />
+        <option value="$PROJECT_DIR$/src/org/company/actions/user/Index.java" />
+        <option value="$PROJECT_DIR$/src/org/company/actions/AdminUserAction.java" />
       </list>
     </option>
   </component>
@@ -269,7 +256,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="2" />
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -284,12 +271,16 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Project Files">
+      <pane id="PackagesPane">
+        <subPane>
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="companys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="companys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -588,22 +579,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="companys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="companys" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="actions" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="companys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="companys" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -956,7 +961,11 @@
       <created>1333434601912</created>
       <updated>1333434601912</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="前台新闻功能">
+      <created>1333458172739</created>
+      <updated>1333458172739</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -995,7 +1004,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298611" sideWeight="0.67045456" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3252841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3252841" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -1047,7 +1056,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="后台新闻功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="前台新闻功能" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1073,6 +1082,7 @@
     <MESSAGE value="产品维护功能，修改功能暂缺😄" />
     <MESSAGE value="修改了后台界面" />
     <MESSAGE value="后台新闻功能" />
+    <MESSAGE value="前台新闻功能" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -1116,19 +1126,60 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/org/company/daos/base/BaseDaoSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="152" column="5" selection-start="4678" selection-end="4678" vertical-scroll-proportion="0.3914328" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/company/daos/base/IBaseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="0" selection-start="1714" selection-end="1714" vertical-scroll-proportion="0.3323486" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/company/actions/NewsAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="39" column="25" selection-start="1291" selection-end="1291" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strutsConfig/admin/struts-news.xml">
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="66" selection-start="557" selection-end="557" vertical-scroll-proportion="0.49875313" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/user/product.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.7751938" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/user/productDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.82687336" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/user/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="105" selection-start="4416" selection-end="4416" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/user/intro.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="16" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strutsConfig/struts-user.xml">
+      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="52" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/user/newsDetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="27" selection-start="1286" selection-end="1296" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="360" column="21" selection-start="7370" selection-end="7370" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/company/services/admin/NewsService.java">
@@ -1141,87 +1192,30 @@
         <state line="14" column="0" selection-start="432" selection-end="432" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/user/index.jsp">
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/user/news.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="105" selection-start="4416" selection-end="4416" vertical-scroll-proportion="-6.8461537">
+        <state line="51" column="18" selection-start="2481" selection-end="2481" vertical-scroll-proportion="-10.615385">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/strutsConfig/admin/struts-news.xml">
-      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/admin/intro/listIntro.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="66" selection-start="557" selection-end="557" vertical-scroll-proportion="0.49875313">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/header.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="16" selection-start="420" selection-end="420" vertical-scroll-proportion="-7.6923075">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strutsConfig/struts-user.xml">
-      <provider editor-type-id="com.intellij.struts2.graph.fileEditor.Struts2GraphFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="52" selection-start="555" selection-end="555" vertical-scroll-proportion="-0.90909094">
+        <state line="40" column="7" selection-start="1216" selection-end="1216" vertical-scroll-proportion="-5.3846154">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/company/actions/user/Index.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="0" selection-start="3235" selection-end="3235" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#2676#2682#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="360" column="21" selection-start="7370" selection-end="7370" vertical-scroll-proportion="0.0">
+        <state line="40" column="32" selection-start="1274" selection-end="1274" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/user/newsDetail.jsp">
+    <entry file="file://$PROJECT_DIR$/src/org/company/actions/AdminUserAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="27" selection-start="1286" selection-end="1296" vertical-scroll-proportion="-21.538462">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/user/product.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.7751938">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/user/productDetail.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.82687336">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/user/intro.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="15.384615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/user/news.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="48" selection-start="1492" selection-end="1492" vertical-scroll-proportion="0.4651163">
+        <state line="135" column="66" selection-start="4171" selection-end="4171" vertical-scroll-proportion="0.2778626">
           <folding />
         </state>
       </provider>
